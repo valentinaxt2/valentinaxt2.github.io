@@ -30,8 +30,6 @@ h1,h2,h3,h4,h5,h6,p,figure,ul,{
     display: flex;
 }
 
-
-
 #imagen-grande {
     width: 920px;
     margin: auto;
@@ -98,4 +96,10 @@ div.contenedor:hover p.texto{
 
 div.contenedor:hover img.icon{
 	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+}
+
+#titulo {
+    color: white;
+    text-align: center;
+    
 }
