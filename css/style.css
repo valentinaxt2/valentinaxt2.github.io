@@ -4,21 +4,16 @@ h1,h2,h3,h4,h5,h6,p,figure,ul,{
 }
 
 #encabezado {
-    height: 40px;
+    height: 200px;
     display: flex;
     justify-content: center;
     font-size: 1.5em;
     width: 920px;
     margin: auto;
     background: black;
+    border-color: white;
     
-}
-#encabezado li{
-    padding: 10px
-}
-#encabezado a{
-    text-decoration: none;
-    color: white;
+
 }
 .heros{
     height: 220px;
@@ -39,7 +34,7 @@ h1,h2,h3,h4,h5,h6,p,figure,ul,{
 
 #imagen-grande {
     width: 920px;
-    margin: auto; 
+    margin: auto;
 }
 .heros{
     border-color: white;
@@ -49,4 +44,58 @@ figure{
 }
 .heros p{
     color:white;
+}
+div.contenedor{
+	width: 153px;
+	height: 200px;
+	margin: auto;
+    float: left;
+	-webkit-transition: height .4s;
+}
+
+div#uno{
+	background-color: rgb(208,101,3);
+}
+
+div#dos{
+	background-color: rgb(233,147,26);
+}
+
+div#tres{
+	background-color: rgb(22,145,190);
+}
+
+div#cuatro{
+	background-color: rgb(22,107,162);
+}
+
+div#cinco{
+	background-color: rgb(27,54,71);
+}
+
+div#seis{
+	background-color: rgb(21,40,54);
+}
+
+img.icon{
+	display: block;
+	margin:50px auto;
+	background-color: rgba(255,255,255,.15);
+	width:40px;
+	padding:20px;
+	-webkit-border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+	-webkit-transition:box-shadow .4s;
+}
+div.contenedor:hover{
+	height:250px;
+}
+
+div.contenedor:hover p.texto{
+	padding-top: 20px;
+	opacity: 1;
+}
+
+div.contenedor:hover img.icon{
+	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
 }
