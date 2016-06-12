@@ -33,7 +33,8 @@ h1,h2,h3,h4,h5,h6,p,figure,ul,{
 #imagen-grande {
     width: 920px;
     margin: auto;
-}
+    border: 1px solid white;
+   } 
 .heros{
     border-color: white;
 }
@@ -102,4 +103,19 @@ div.contenedor:hover img.icon{
     color: white;
     text-align: center;
     
+}
+
+#pie {
+   width: 920px;
+    margin: auto;
+}
+
+#politicas p{
+    color: white;
+    border: solid white;
+    text-align: center;
+}
+
+#politicas {
+    border: solid white;
 }
