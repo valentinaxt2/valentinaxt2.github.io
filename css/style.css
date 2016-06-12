@@ -1,4 +1,52 @@
-h1,h2,h3,h4,h5,h6,p,figure,ul,li{
+h1,h2,h3,h4,h5,h6,p,figure,ul,{
     margin: 0;
     padding: 0;
+}
+
+#encabezado {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    width: 920px;
+    margin: auto;
+    background: black;
+    
+}
+#encabezado li{
+    padding: 10px
+}
+#encabezado a{
+    text-decoration: none;
+    color: white;
+}
+.heros{
+    height: 220px;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    width: 920px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+}
+.heros{
+    display: flex;
+}
+
+
+
+#imagen-grande {
+    width: 920px;
+    margin: auto; 
+}
+.heros{
+    border-color: white;
+}
+figure{
+    margin: 10px;
+}
+.heros p{
+    color:white;
 }
